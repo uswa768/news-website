@@ -46,7 +46,7 @@ export default function Contact() {
               name="name"
               value={formData.name}
               onChange={handleChange}
-              className="w-full border border-foreground bg-transparent px-3 py-3.5 outline-none text-foreground text-sm focus:border-accent-red transition-colors rounded-none"
+              className="w-full border border-foreground bg-transparent px-5 py-5 outline-none text-foreground text-base focus:border-accent-red transition-colors rounded-none"
             />
           </div>
           <div className="contact-form-group">
@@ -57,7 +57,7 @@ export default function Contact() {
               name="email"
               value={formData.email}
               onChange={handleChange}
-              className="w-full border border-foreground bg-transparent px-3 py-3.5 outline-none text-foreground text-sm focus:border-accent-red transition-colors rounded-none"
+              className="w-full border border-foreground bg-transparent px-5 py-5 outline-none text-foreground text-base focus:border-accent-red transition-colors rounded-none"
             />
           </div>
           <div className="contact-form-group">
@@ -68,7 +68,7 @@ export default function Contact() {
               value={formData.message}
               onChange={handleChange}
               rows={6}
-              className="w-full border border-foreground bg-transparent px-3 py-3.5 outline-none text-foreground text-sm focus:border-accent-red transition-colors resize-none rounded-none"
+              className="w-full border border-foreground bg-transparent px-5 py-5 outline-none text-foreground text-base focus:border-accent-red transition-colors resize-none rounded-none"
             />
           </div>
           <button 
